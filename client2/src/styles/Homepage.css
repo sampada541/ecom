@@ -1,0 +1,102 @@
+.banner-img {
+  margin-top: 1px;
+  height : 2vh;
+}
+
+.home-page h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 15rem; /* Decrease the width as needed */
+  margin-bottom: 20px;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: column; /* Change to column to align text properly */
+  align-items: center; /* Center text horizontally */
+}
+
+.home-page .card-title {
+  font-size: 16px; /* Decrease the font size as needed */
+}
+
+.home-page .card-price {
+  color: black;
+  font-weight: bold;
+  margin-top: 5px; /* Decrease the margin as needed */
+  font-size: 14px; /* Decrease the font size as needed */
+}
+
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 9px; /* Decrease the font size as needed */
+  font-weight: bold;
+  margin-top: 5px; /* Decrease the margin as needed */
+}
+
+.home-page .card-text {
+  color: rgb(140, 136, 136);
+  font-family: Helvetica, sans-serif;
+  font-size: 12px; /* Decrease the font size as needed */
+  text-align: center;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 250px !important; /* Decrease the height as needed */
+}
+/* ==================
+filters
+============== */
+
+.filters h4 {
+  margin-top: 20px; /* Adjust the margin as needed */
+  color: black !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  font-size: 17px;
+}
+
+.filters .ant-checkbox-wrapper {
+  margin: 5px 0; /* Add margin to the checkboxes for vertical spacing */
+}
+
+.filters .ant-checkbox-wrapper:first-of-type {
+  margin-top: 10px; /* Adjust the top margin for the first checkbox */
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: rg(1, 4, 11);
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+
+
+  
